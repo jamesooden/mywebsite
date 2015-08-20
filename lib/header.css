@@ -1,0 +1,50 @@
+/* General */
+body  { 
+	background-color: black; 
+	           color: palegreen;
+}
+
+.header {
+	     font-family: Arial,Helvetica,sans-serif; 
+	       font-size: 20px;
+	      text-align: center;
+	background-color: olive;
+	           color: lightgreen;
+}
+
+/* Motto on Front Page */
+.motto {
+	font-family: Arial,Helvetica,sans-serif; 
+	  font-size: 20px;
+	 text-align: center;
+	      color: white;
+	    padding: 20px;
+
+}
+
+/* Links */
+a:link    { color: lightgreen; }  /* unvisited link  */
+a:visited { color: lightgreen; }  /* visited link    */
+a:hover   { color: white;     }  /* mouse over link */
+a:active  { color: lightgreen; }  /* selected link   */ 
+
+/* Menu */
+.menu { 
+	font-family: Impact, Charcoal, sans-serif;
+	  font-size: 30px;
+}
+.menu a:link    { color: lightgray; }  /* unvisited link  */
+.menu a:visited { color: lightgray; }  /* visited link    */
+.menu a:hover   { color: white;     }  /* mouse over link */
+.menu a:active  { color: lightgray; }  /* selected link   */ 
+
+
+/* Style used to set default tables properties.
+   The default table is used to keep things within the bounderies 
+   of the header image.
+ */
+.outer {
+	font-family:Arial,Helvetica,sans-serif; 
+	width:1112px;
+}
+
